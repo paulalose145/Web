@@ -1,0 +1,247 @@
+body{
+	font-family: Helvetica;
+	font-weight: lighter;
+	margin: 0px;
+}
+/*header de la pagina de registro*/
+header{
+	background-color: rgb(76, 76, 76);
+	height: 100%;
+	position: relative;	
+	margin-bottom: 50px;
+}
+/*valores generales para todos los h1*/
+h1{
+	font-weight: lighter;
+	font-size: 30pt;
+}
+/*valores especificos para el h1 del header -presente en todas las paginas-*/
+#cabecera1 h1{
+	color: #EFCD31;
+	display: inline;
+	margin: 0px;
+	left: 16%;
+	position: absolute;	
+	top: 35%;
+}
+/*valores para el logo en el header -presente en todas las paginas-*/
+#cabecera1 figure{
+	display: inline;
+	margin-left: 150px;
+	margin-right: 5px;
+}
+
+/*valores para el login -presente solo en la pagina de registro-*/
+#cabecera1 form{
+	display: inline;
+	left: 40%;
+	position: absolute;
+	top: 35%;
+}
+/* valores generales para los input tanto de texto como de boton para el login y el registro*/
+input{
+	-webkit-appearance: none;
+	background: none;
+	background-repeat: no-repeat;
+	border: none;
+	font-family: Helvetica;
+	font-size: 12pt;
+	font-weight: lighter;
+}
+/*valores especificos para lso input de texto*/
+#cabecera1 input[type='text']{
+	background-image: url('../img/loginInput.png');
+	color: #D3D3D3;
+	height: 32px;
+	padding: 2px;
+	padding-left: 10px;
+	width: 235px;
+}
+/*valores especificos para los input de botones*/
+#cabecera1 input[type='submit']{
+	background-image: url('../img/boton.png');
+	height: 38px;
+	padding-top: 5px;
+	width: 170px;
+}
+
+/*fin header*/
+/*-----------------------------------------------*/
+
+/*valores generales del contenedor llamado registro*/
+#registro {
+	position: relative;
+	text-align: center;
+	margin: 0px 150px;
+}
+/*imagen del logo en la seccion de registro*/
+#registro figure{
+	margin:0px; 
+}
+/*valores especificos de los h1 en la seccion de registro */
+#registro h1{
+	margin:0px; 
+}
+hr{
+	margin: 1px;
+}
+/*valores para el formulario de registro*/
+#registro form{
+	left: 39%;
+	margin-top: 50px;
+	position: absolute;
+}
+/*valores especificos de los input tipo texto en el registro*/
+#registro input[type='text']{
+	display: block;
+	background-image: url('../img/registroInput.png');
+	color: #4C4C4C;
+	height: 32px;
+	margin-bottom: 15px;
+	padding: 2px;
+	padding-left: 10px;
+	width: 235px;
+}
+/*valores especificos de los input tipo boton en el registro*/
+#registro input[type='submit']{
+	display: block;
+	background-image: url('../img/boton.png');
+	height: 38px;
+	left: 15%;
+	margin-top: 5px;
+	padding-top: 5px;
+	position: absolute;
+	width: 170px;
+}
+/*FIN PAGINA DE REGISTRO*/
+/*-----------------------------------------------*/
+/*INICIO PAGINA DE HOME*/
+
+/*valores de la barra de navegación añadido al header*/
+#cabecera1 nav{
+	color: #D3D3D3;
+	display: inline;
+	font-size: 14pt;
+	font-weight: lighter;
+	margin-left: 55%;
+	position: absolute;
+	top: 40%
+}
+#cabecera1  ul{
+	margin: 0px;
+	display: inline;
+	padding: 0px;
+}
+#cabecera1  a{
+	color: #D3D3D3;
+	text-decoration: none;
+}
+#cabecera1  li{
+	display: inline;
+	margin: 0px;
+	padding: 10px;
+}
+#cabecera1 .linea{
+	border-right: 1px solid white;
+}
+/*-----------------------------------------------*/
+
+/*segunda barra presente en las paginas de home, catalogo y perfil*/
+#barra{
+	margin-left: 150px;
+}
+/*valores especificos para el texto de la barra*/
+h3{
+	display: inline;
+	font-weight: lighter;
+	font-size: 18pt;
+}
+/*valores especificos para el boton de salir*/
+#barra input[type='submit']{
+	background-image: url('../img/boton.png');
+	height: 38px;
+	left: 220px;
+	margin-left: 60%;
+	position: absolute;
+	width: 170px;
+}
+/*-----------------------------------------------*/
+#productos{
+	margin-left: 150px;
+}
+#producto{
+	display: inline-block;
+	margin: 50px;
+	width: 265px;
+}
+#producto h4{
+	display: inline-block;
+}
+#precio{
+	float: right;
+}
+#carro {
+	display: block;
+	float: right;
+}
+/*seccion de carrito al final de las paginas de home y de catálogo*/
+#carrito{
+	margin-left: 150px;
+	position: relative;
+	top: 50px;
+	margin-bottom: 100px;
+}
+#cuadrito{
+	border-style: double;
+	border-width: 3px;
+	height: 280px;
+	overflow-y: scroll; 
+	width: 1040px;
+}
+#productoCar{
+	display: inline-block;
+	margin-left: 20px;
+	width: 170px;
+}
+#productoCar img{
+	width: 170px;
+}
+h6{
+	font-family: Helvetica;
+	font-size: 12pt;
+	font-weight: lighter;
+	margin: 0px;
+}
+
+#productoCar input[type='submit']{
+	background-image: url('../img/boton.png');
+	background-repeat: no-repeat;
+	height: 38px;
+	margin-top: 20px;
+	width: 170px;
+}
+/*-----------------------------------------------*/
+
+/*barra con el nombre del usuario*/
+#nombre{
+	margin: 80px 150px 0px 150px;
+}
+#productoCom{
+	display: inline-block;
+	margin: 50px;
+	margin-top: 20px;
+	position: relative;
+	width: 265px;
+}
+h4{
+	font-size: 14pt;
+	font-weight: lighter;
+	margin-bottom: 10px;
+}
+#comprado{
+	margin-left: 150px;
+}
+#comprado #fecha{
+	position: absolute;
+	
+}
